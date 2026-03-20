@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'net.serenity-bdd.serenity-gradle-plugin' version '5.3.7'
 }
 
 repositories {
@@ -33,3 +34,13 @@ java {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
+
+test {
+    useJUnit()
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+    systemProperty "environment", "default"
+    finalizedBy aggregate
+}
+
+gradle.startParameter.continueOnFailure = true

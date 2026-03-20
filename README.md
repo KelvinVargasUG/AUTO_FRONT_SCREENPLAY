@@ -7,6 +7,9 @@ Automatización de pruebas Front-End usando **Serenity BDD** con el patrón **Sc
 - Java 17+
 - Google Chrome instalado
 - Aplicación web corriendo en `http://localhost:5173`
+- [FoodTech-Kitchen-Services](https://github.com/KelvinVargasUG/FoodTech-Kitchen-Services/tree/main)
+- [FoodTech-Front](https://github.com/KelvinVargasUG/FoodTech-Front/tree/main)
+- Ejecutar Script inicial [seed_data.sh](scripts/seed_data.sh)
 
 ## Estructura del proyecto
 
