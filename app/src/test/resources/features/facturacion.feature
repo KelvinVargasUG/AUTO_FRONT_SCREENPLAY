@@ -1,4 +1,4 @@
-#language: es
+# language: es
 Característica: Facturación de pedidos
 
   Escenario: Generación exitosa de factura para un pedido completado

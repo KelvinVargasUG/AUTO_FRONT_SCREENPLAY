@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
     plugin  = {"pretty"},
     features = {
         "classpath:features/registro_usuarios.feature",
-        "classpath:features/facturacion.feature"
+        "classpath:features/facturacion.feature",
+        "classpath:features/catalogo_productos.feature",
+        "classpath:features/carga_masiva.feature"
     },
     glue    = "com.automation.stepdefinitions"
 )
